@@ -17,3 +17,7 @@ var ninja1;
 ninja1 = { name: "ninja" };
 ninja1 = []; //this will also work because a list is an object!
 var ninja2; // this is a much more specific (and better) declaration
+var age_any = 25;
+console.log(age_any);
+age_any = "hello";
+console.log(age_any);

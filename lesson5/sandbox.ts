@@ -7,7 +7,6 @@ age = 30;
 
 isLoggedIn = true;
 
-
 // arrays
 let ninjas: string[]; //note - this is not an initialization, just a declaration
 let ninjas2: string[] = []; //THIS is an initialization
@@ -28,4 +27,9 @@ let ninja2: {
     age: number,
     beltColor: string
 }; // this is a much more specific (and better) declaration
+
+let age_any: any = 25;
+console.log(age_any);
+age_any = "hello";
+console.log(age_any);
 
